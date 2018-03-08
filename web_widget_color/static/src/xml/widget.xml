@@ -8,7 +8,7 @@
                        t-att-autofocus="widget.attrs.autofocus"
                        t-att-placeholder="widget.attrs.placeholder"
                        t-att-maxlength="widget.field.size"
-                       class="color {hash:true} o_input"
+                       class="jscolor {hash:true} o_input"
                         t-if="widget.mode !== 'readonly'"/>
             <t t-else="">
                 <div/>
